@@ -1,0 +1,162 @@
+body{
+    line-height: 1.5;
+}
+p{
+
+    color: #666;
+}
+h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.logo{
+    line-height: 60px;
+    color: #fff;
+    padding: 0 10px;
+}
+.navbar{
+    height: 60px;
+    background-color: #333;
+}
+.navlist{
+    line-height: 60px;
+    float: right;
+}
+.navlist li{
+    float: left;
+}
+
+.navlist li a{
+    float: left;
+    color: #fff;
+    padding: 0px 20px;
+}
+.navlist li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* navbar ends */
+.banner{
+    background: url(../images/banner3.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    box-shadow:0 0px 20px 0px #8f8f8f;
+}
+/* banner ends */
+.left-sidebar{
+    width: 15%;
+    background-color: #57ABB6;
+    float: left;
+    height: auto;
+    padding: 1%;
+}
+
+.side-menu li{
+    list-style: none;
+
+}
+.side-menu li a{
+    list-style: none;
+    padding: 10px 10px;
+    color: #fff;
+    display: block;
+
+}
+.side-menu li a:hover{
+    background-color: black;
+    
+}
+.right-side{
+    width: 81%;   
+    display: inline-block;
+    padding: 1%;
+}
+.left-sidebar h5,.right-side h5{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/* main-sec ends */
+
+.footer{
+    background-color: #4b8e97;
+}
+.footer .widget{
+    width: 23%;
+    float: left;
+    color: white;
+    padding: 1% ;
+}
+.widget a{
+    color: #fff;
+}
+.footer p{
+    clear: both;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+.footer-form input{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.submit-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 0px #333;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 2px 0px #333;
+}
+
+@media (max-width:768px){
+    .left-sidebar{
+        width: 25%;
+
+    }
+    .right-side{
+        width: 71%;   
+        display: inline-block;
+        padding: 1%;
+    }
+    .footer .widget{
+        width: 48%;
+        float: left;
+        color: white;
+        padding: 1%;
+    }
+    .banner {
+        height: 323px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .left-sidebar{
+        width: 98%;
+
+    }
+    .right-side{
+        width: 96%;   
+        display: inline-block;
+        padding: 2%;
+        text-align: justify;
+    }
+    .footer .widget{
+        width: 98%;
+        float: left;
+        color: white;
+        padding: 1%;
+        border-bottom: 1px solid #629fa8;
+    }
+    .banner {
+        height: 180px;
+    }
+}
